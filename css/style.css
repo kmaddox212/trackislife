@@ -1,0 +1,164 @@
+
+@import
+url('https://fonts.googleapis.com/css?family=Lato|Libre+Barcode+39+Text|Raleway:400,400i');
+
+body {
+  font-family: 'Raleway', sans-serif;
+  color: #ffffff;
+  text-align: left;
+  background: radial-gradient(circle, blue, white);
+  background: url(../img/start.jpeg);
+  background-size: cover;
+  width: 70%;
+  margin: auto;
+  position: relative;
+  
+}
+
+/*the nav has an image to display as the site's logo*/
+nav li {
+  display: flex;
+  align-content: center;
+  margin:auto;
+}
+
+.navigation {
+   background: url("../img/R.png") top left no-repeat;
+  background-size: 100px;
+  height: 120px;
+}
+
+
+ul {
+  display: flex;
+justify-content: space-around;
+list-style-type: none;
+padding:20px;
+font-family: "Lato", sans-serif;
+
+}
+
+li {
+font-size: 20px;
+color: #bc2938;
+background: rgba(247, 244, 245, 0.3);
+border-top-left-radius: 10px;
+border-top-right-radius: 10px;
+}
+
+/*thought this font would be great for headers*/ 
+h1 {
+  font-family: 'Libre Barcode 39 Text', cursive; 
+  text-align: center; 
+  font-size: 72px;
+  color: #4268a5;
+}
+
+h2 {
+  color: #6b8fc6;
+}
+
+p{
+  font-family: 'Raleway', sans-serif;
+  justify-content: center;
+  align-content: center;
+}
+
+/*these sections shift the athletes' descriptions*/
+.leftp {
+  font-family: 'Raleway', sans-serif;
+  display: flex;
+  justify-content: flex-start;
+  padding: 25px;
+  border: solid 2px #ffffff;
+  border-radius: 25px;
+  background-color: rgba(193, 56, 56,0.3);
+  margin-right: 100px;
+}
+
+.rightp {
+  font-family: 'Raleway', sans-serif;
+  display: flex;
+  flex-direction: row;
+   justify-content: flex-end;
+  padding: 25px;
+  border: solid 2px #ffffff;
+  border-radius: 25px;
+  background-color: rgba(71, 70, 69,0.3);
+  margin-left: 100px;
+}
+
+h3 {
+  color: #d5e0f2;
+  padding:25px;
+  align-items: center;
+}
+
+/*this rotates the headings within the athlete descriptions*/
+.leftp h3{
+  display: flex;
+  justify-content: flex-start;
+  transform: rotate(270deg);
+}
+
+.rightp h3{
+  display: flex;
+    justify-content: flex-start;
+  transform: rotate(270deg);
+}
+
+img {
+  border: 5px groove #fceb67;
+  border-radius: 100px;
+  
+}
+
+.leftsideimg {
+    display: flex;
+  justify-content: space-between;
+  
+  width: 80%;
+}
+
+.rightsideimg {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.events ul {
+  display: flex;
+  Flex-direction: column;
+}
+
+
+.even {
+  padding: 25px;
+  border-radius: 25px;
+  background-color: rgba(193, 56, 56,0.3);
+}
+
+.odd {
+  padding: 25px;
+  border-radius: 25px;
+  background-color: rgba(71, 70, 69,0.3);
+}
+
+.homepage {
+  padding: 25px;
+  border-radius: 25px;
+  background-color: rgba(193, 56, 56,0.3);
+  font-family: 'Raleway', sans-serif;
+  display: flex;
+  justify-content: center;
+  margin: 100px 100px;
+  
+}
+
+ /*styling for the homepage gif*/
+.gif {
+  display: flex;
+  justify-content: center;
+  border: 5px solid #4268a5;
+  border-radius: 25px;
+  margin: auto;
+}
